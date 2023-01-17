@@ -1,0 +1,22 @@
+{
+  "name": "auto-comment-blocks-2",
+  "displayName": "Auto Comment Blocks 2",
+  "description": "Automatically create comment blocks",
+  "version": "0.0.1",
+  "publisher": "Tim Hilt",
+  "license": "MIT",
+  "engines": {
+    "vscode": "latest"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "cpp",
+        "configuration": "./language-configuration.json"
+      }
+    ]
+  }
+}
